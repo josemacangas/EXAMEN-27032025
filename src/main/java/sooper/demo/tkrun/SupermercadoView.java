@@ -92,8 +92,10 @@ public class SupermercadoView {
 		scrollPane_1.setViewportView(tablaEmbolsados);
 		
 		btnEnvioAlmacen = new JButton("Enviar a almacén");
+		btnEnvioAlmacen.addActionListener(e -> new AlmacenView()); 
 		frmSupermercado.getContentPane().add(btnEnvioAlmacen, "cell 0 5");
 		frmSupermercado.setVisible(true);
+
 	}
 	
 	public JFrame getFrame() {

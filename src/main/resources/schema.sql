@@ -37,5 +37,6 @@ CREATE TABLE "articulo" (
 	PRIMARY KEY("idArticulo")
 );
 
+ALTER TABLE articuloPedido ADD COLUMN embolsado INTEGER DEFAULT 0;
 
 

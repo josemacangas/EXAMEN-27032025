@@ -80,5 +80,8 @@ public class SwingMain {
 	}
 		
 	public JFrame getFrame() { return this.frame; }
+
+
 	
 }
+
